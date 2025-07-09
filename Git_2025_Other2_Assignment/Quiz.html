@@ -34,18 +34,25 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="quiz-container">
-        <div class="question">Q1. 日本の首都はどこですか？</div>
+        <div class="question">ここに問題が表示されます</div>
         <ul class="choices">
-            <li><button class="choice-button">大阪</button></li>
-            <li><button class="choice-button">京都</button></li>
-            <li><button class="choice-button">東京</button></li>
-            <li><button class="choice-button">名古屋</button></li>
+            <li><button class="choice-button">選択肢1</button></li>
+            <li><button class="choice-button">選択肢2</button></li>
+            <li><button class="choice-button">選択肢3</button></li>
+            <li><button class="choice-button">選択肢4</button></li>
         </ul>
+        <div class="result"></div> <!-- ← 結果表示 -->
     </div>
+    <script src="Quiz.js"></script>
 </body>
 </html>
-
